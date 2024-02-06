@@ -1,0 +1,2 @@
+---Data written using manual context manager----
+This is file handling topic

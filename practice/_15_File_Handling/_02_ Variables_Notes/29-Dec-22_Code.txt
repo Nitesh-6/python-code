@@ -1,0 +1,120 @@
+Python 3.9.10 (tags/v3.9.10:f2f3f53, Jan 17 2022, 15:14:21) [MSC v.1929 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+>>> x = 10  # Write operation
+>>>
+>>> x = 10
+>>> print(x)  # Read operation
+10
+>>> x = 10
+>>> 123 = 10
+  File "<stdin>", line 1
+    123 = 10
+    ^
+SyntaxError: cannot assign to literal
+>>>
+>>> _123 = 10
+>>>
+>>> x = 10
+>>> eid = 10
+>>>
+>>> str1 = 'MadhuN'
+>>> e_name = 'MadhuN'
+>>> Eid = 10
+>>>
+>>> x = 10
+>>>
+>>> print("Value :", x)
+Value : 10
+>>>
+>>>
+>>> x = 10
+>>> x, type(x), id(x)
+(10, <class 'int'>, 2285723937360)
+>>> a = b = c = 10
+>>> a,b,c
+(10, 10, 10)
+>>> id(a), id(b), id(c)
+(2285723937360, 2285723937360, 2285723937360)
+>>> type(a), type(b), type(c)
+(<class 'int'>, <class 'int'>, <class 'int'>)
+>>> a,b,c = 1,2,3
+>>> a,b,c
+(1, 2, 3)
+>>> a
+1
+>>> b
+2
+>>> cc
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'cc' is not defined
+>>> c
+3
+>>> x = 10  # x Variable  = Operator  10 Value
+>>> print(x)
+10
+>>> PI = 3.14
+>>>
+>>> x = 10
+>>> print(x)
+10
+>>> x = 20
+>>> print(x)
+20
+>>> PI = 3.14  # PI Constant
+>>> PI = 4
+>>>
+>>>
+>>> x = 10
+>>> print(x)
+10
+>>> del x
+>>> print(x)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'x' is not defined
+>>>
+>>>
+>>> del = 100
+  File "<stdin>", line 1
+    del = 100
+        ^
+SyntaxError: invalid syntax
+>>> True = 'Madhu'
+  File "<stdin>", line 1
+    True = 'Madhu'
+    ^
+SyntaxError: cannot assign to True
+>>>
+>>> true = 'Madhu'
+>>> print(true)
+Madhu
+>>> print = 10
+>>> print(print)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: 'int' object is not callable
+>>>
+>>> print
+10
+>>>
+>>> prod_name = 'DELL'
+>>>
+>>> prod_id = 1000
+>>>
+>>> x = 10
+>>> print(x)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: 'int' object is not callable
+>>>
+>>>
+>>> x = 10
+>>> del print
+>>> print(x)
+10
+>>> x = 10
+>>> x = 20
+>>>
+>>> x = 10
+

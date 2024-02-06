@@ -1,0 +1,231 @@
+Entity : Mobile
+Attributes : brand,price,ram, storage,android verion, UI version, weight,screen size, 5G , headphone jack
+Values :MI, 12600, 6GB, 64GB, 10, 12.5, 205,6.2, true, true
+Datatype : str, int,str, str, int, float, int, float, bool, bool
+---------------------------------------------------------------------------------------------------------------------------------------
+Entity : CrickeMatch
+Attributes : stadium,score,wickets,run rate,extras, total six , total fours, openers, blowers economy ,skipper
+Values : mumbai, 210, 2,10.5, 5,10,15,player 1 and player 2,10.5,dhoni
+Datatype : str, int,int, float, int,int, int, str,float,str
+----------------------------------------------------------------------------------------------------------------------------------------
+Entity : Movie
+Attributes :mid, name, creator, starring, genre, subtitle, language, episode, season, imbd_rating, run_time,awards
+Values : prison break, paul T, wentworth miller, action thriller,yes, english, 90, 5,8.3 , 50, best series
+Datatype :str,str,str,str,bool,str,int,float,int,int
+----------------------------------------------------------------------------------------------------------------------------------------
+Entity :TrainTicket
+Attributes:train name,train num, PNR, transaction id, from station, to station, passengers name, age, ticket status, coach, berth,
+Values :lalbagh express, 610011, 654668676498,61649865135762,bangalore,chennai central, kavin,26,confirmed, s10,40
+Datatype:str, int,float,float,str,str,str,int,bool, str,int
+-----------------------------------------------------------------------------------------------------------------------------------------
+Entity      : Coaching_Institute
+Attributes  : Inst_id,name,address,mob_no,state,country
+Values      : 1,udaya,xyz,7755668822,ap,india
+Datatype    : int,str,str,str,str,str
+-----------------------------------------------------------------------------------------------------
+Entity      : Shopping_Mall
+Attributes 	: id,name,address,mob_no,width,height
+Values      : 1,abc,xyz,7755668822,200,350
+Datatype   	: int,str,str,str,float,float
+-----------------------------------------------------------------------------------------------------
+Entity          : customer
+Attributes   : id,f_name,surname,dob,address,ph_no
+Values         : 2,kala,vemuri,02/04/1993,anantapur,8986632454
+Datatype     :int,str,str,str,str,int
+-----------------------------------------------------------------------------------------------------
+Entity         : contact
+Attributes :fname,lname,street,ph_no,fax
+Values       : uma,lakshmi,bawada,8986751258,45589225
+Datatype  : str,str,str,str,int,int
+-----------------------------------------------------------------------------------------------------
+Entity         : Invoice
+Attributes :inv_id,prod_id,UnitPrice,qty,ExtendedPrice,ProductNmae,Total,TotalinStock,OrderDate
+Values       : 1,1251,200,50,520,charger,600,20,02/03/2023
+Datatype  : int,int,float,float,str,float,int,str
+-----------------------------------------------------------------------------------------------------
+Entity         : Product
+Attributes :id,name,UnitPrice,Stock,catagory,Discount
+Values       : 2,dell,45000,5,core i5,1000
+Datatype  : int,str,float,int,str,float
+-----------------------------------------------------------------------------------------------------
+Entity         : CollegeDetails
+Attributes :id,name,address,course,branch
+Values       : 01,rgit,ndl,btech,cse
+Datatype  : int,str,str,str,str
+-----------------------------------------------------------------------------------------------------
+Entity         : Waterbottlecompany
+Attributes :id,name,color,shape,height,width
+Values       : 02,aqua,white,round,5.2,2.5
+Datatype  : int,str,str,str,float,float
+-----------------------------------------------------------------------------------------------------
+Entity         : Module
+Attributes : id,name,level,staffno
+Values       : 01,marketing,05,556
+Datatype  : int,str,str,str
+-----------------------------------------------------------------------------------------------------
+Entity         : FashionModel
+Attributes :id,name,height,weight,dresssize,hair colour,eye colour
+Values       : 06,john,6.0,50,38,black,black
+Datatype  : int,str,float,float,str,str,str
+-----------------------------------------------------------------------------------------------------
+Entity         : Building
+Attributes :id,floors,color,flats,doors,windows,address
+Values       :8, 01,pink,45,100,400,banglore
+Datatype  : int,int,str,int,int,int,str
+-----------------------------------------------------------------------------------------------------
+Entity         : Fan
+Attributes :id,name,address,color,type,height,width
+Values       : 01,esfera,banglore,black,6,4.5
+Datatype  : int,str,str,str,str,float,float
+-----------------------------------------------------------------------------------------------------
+Entity         : School
+Attributes :id,name,stu_count,stu_name,class,section
+Values       : 01,xyz,500,hari,5,A
+Datatype  : int,str,int,str,int,str
+-----------------------------------------------------------------------------------------------------
+Entity         : SalarySlip
+Attributes :Emp_No,Emp_Name,Desig,Address,Dept,Bank_Name,Acc_NO
+Values       : 08514,john,developer,bangore,software,sbi,08415721
+Datatype  : int,str,str,str,str,str,int
+-----------------------------------------------------------------------------------------------------
+Entity         : ATM
+Attributes :id,time,address,type,name
+Values       : 01,5.00,ndl,credit,sbi
+Datatype  : int,float,str,str,str
+-----------------------------------------------------------------------------------------------------
+Entity         : Transaction
+Attributes :id,time,address,type
+Values       : 01,5.00,ndl,swipe
+Datatype  : int,float,str,str
+-----------------------------------------------------------------------------------------------------
+Entity         : Car
+Attributes :reg_no,color,model,make
+Values       : 15420,pink,dmw,japan
+Datatype  : int,str,str,str
+-----------------------------------------------------------------------------------------------------
+
+Entity    : Laptop
+Attributes: price, ram, memory, model_no, COMPANY
+Values    : 60000, 150, 200, "pavilion,1255", "HP"
+Datatype  : float,float,float,str,str
+-----------------------------------------------------------------------------------------------------
+Entity    : Apartment
+Attributes: plot_no, area, floors, colour, doors, employees, COMPANY
+values    : 34, 10256, 10, 'white', 80, 150, 'RR constructions'
+data type : int,float,int,str,int,int,str
+-----------------------------------------------------------------------------------------------------
+Entity    : Mobile
+Attributes: cost,model,colour,sim_comp,memory,mobile_no,inbuilt_apps,COMPANY
+values    : 10000,'sm_12564','blue','docomo',1600,'756200656',25,'SN mobiles'
+data type : float,str,str,str,str,float,str,int,str
+------------------------------------------------------------------------------------------------------
+Entity    : Auto_mobile
+Attributes: colour,price,doors,mirrors,horse_power,gears,COMPANY
+values    : "black","5.8_lac",4,3,"200hp",6,"Yoklohama"
+data type : str,str,int,int,str,int,str
+------------------------------------------------------------------------------------------------------
+Entity    : dinning table
+Attributes: price,colour,height,chairs,legs,wood_used,COMPANY
+values    : 20000.55,'brown','2meters',6,4,'rose wood','peper fry'
+data type : float,str,str,int,int,str
+------------------------------------------------------------------------------------------------------
+Entity    : Television
+Attributes: price,resolution,inches,channels,volt_cap,languages,COMPANY
+values    : 15000,'1080p',54,100,'240v',25,'BPL'
+data type : float,str,int,int,str,int,str
+-------------------------------------------------------------------------------------------------------
+Entity    : Book
+Attributes: price,pages,author,height_cm,colour_pgs,title,serial_no,COMPANY,e-book
+values    : 150.99,200,'rajamouli',30.4,50,'movie production','B_1234','annapurna studios',true
+data type : float,int,str,float,int,str,str,str
+-------------------------------------------------------------------------------------------------------
+Entity    : inverter
+Attributes: price,COMPANY,volt_input,volt_output,duration,lights,fans,battery_life
+values    : 14675,'EXIDE',200,240,'10_hrs',20,8,'5_yrs'
+data type : float,str,int,int,str,int,int,str
+-------------------------------------------------------------------------------------------------------
+Entity    : Employee
+Attributes: id_no,sal,working_hrs,exp,mobile,email,location,COMPANY,work_from_home
+values    : 15,15000,'8 hrs','4 yrs','45367289','farm@gmail.com','Hyderabad','m&m',true
+data type : int,float,str,str,str,str,str,str,bool
+-------------------------------------------------------------------------------------------------------
+Entity    : Ball pen
+Attributes: ink_colour,length,colour,life,price,model_no,COMPANY
+values    : 'blue','10cm','orange','30days',20,115,'classmate'
+data type : str,str,str,str,float,int,str
+--------------------------------------------------------------------------------------------------------
+Entity    : college
+Attributes: braches,placements,staff,classrooms,principal,college_code,yearly_fee,on_holiday,NAME
+values    : 8,220,450,150,'dasari',25670,70000.99,true,'SSSS'
+data type : int,int,int,int,str,int,float,bool,str
+--------------------------------------------------------------------------------------------------------
+Entity    : Hospital
+Attributes: hos_code,location,beds,patients,icu_rooms,ct_avail,xray_avail,doctors,nurses,NAME
+values    : 12546,'delhi',5000,300,15,true,true,150,200,'SR HOSPITALS'
+data type : int,str,int,int,int,bool,bool,int,int,str
+--------------------------------------------------------------------------------------------------------
+Entity    : Fire station
+Attributes: sta_code,location,on_duty,fire_fighters,fire_engines,Director,miss_completed,liv_saved
+values    : 35467,'kurnool',true,70,20,'srinivas',250,1045
+data type : int,str,bool,int,int,str,int,int
+--------------------------------------------------------------------------------------------------------
+Entity    : Earthquake
+Attributes: magnitude,economy_loss,life_loss,injured,buildings_coll,services_avail,location
+Values    : 6.5,'12_crore',1500,25000,1435,false,'japan'
+data type : float,str,int,int,int,bool,str
+--------------------------------------------------------------------------------------------------------
+Entity    : Tsunami
+Attributes: tide_ht,location,injured,lives_lost,economy_loss,services_avail,emergency_no
+Values    : '6.8 ft','vizag',1356,200,'3 million',false,911
+data type : str,str,int,int,str,bool,int
+------------
+(1)Entity:Mobile
+Attributes:price,model,company,colour ,memory, RAM
+Values:10,000,oneplus 9RT,oneplus,black,256GB,8GB
+Data type:float,str,str,str,str,str
+-------------------------------------------------------------------
+(2)Entity:Bike
+Attributes:price,model,company,colour,cc,mileage
+Values:70,000,pulsar,bajaj,red,150,30
+Data type:float,str,str,str,int,int
+-------------------------------------------------------------------
+(3)Entity:Address
+Attributes:HNo,street name,apartment name,city,state
+Values:278,gandhi nagar,shreyas,ananthapur,andhra pradesh
+data type:int,ste,str,str,str
+------------------------------------------------------------------
+(4)Entity:Bag
+Attributes:type,colour,brand,cost
+Values:laptop bag,blue,sky bag,1000
+Data type:str,str,str,int
+-------------------------------------------------------------
+(5)Entity:Laptop
+Attributes:model,price,colour,brand,RAM,hard disc
+Values:inspiron 15, 50000,black,dell,8GB,1TB
+Data type:str,int,str,str,str,str
+----------------------------------------------------------------
+(6)Entity:IceCream
+Attributes:brand,flavour,cost
+Values:amul,chocolate,50
+Data type:str,str,int
+---------------------------------------------------------------------------
+(7)Entity:Television
+Attributes:inches,model,brand,cost
+values:55,smart tv,sony,80000
+Data type:int,str,str,int
+------------------------------------------------------------------------------
+(8)Entity:Spectacles
+Attributes:eyesight,brand,frame,shape,cost
+value:1.5,titan,full frame,round,2000
+Data type:float,str,str,str,int
+-----------------------------------------------------------------
+(9)Entity:Book
+Attributes:type,brand,no of pages,cost
+value:ruled,classmate,100,50
+Data type:str,str,int,int
+-------------------------------------------------------------------------
+(10)Entity:WashingMachine
+Attributes: capacity, brand, cost, colour
+value: 6.5L, Samsung, 250000, white
+data type: str,str, int, str
+-------------------------------------------------------------------------
